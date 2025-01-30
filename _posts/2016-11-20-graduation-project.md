@@ -6,8 +6,6 @@ hidden: true
 tags: [master, graduation project, crowd dynamics]
 ---
 
-{% include mathjax.html %}
-
 In the first post on my blog, I return to the graduation project I did during my master: *Large-scale multiscale particle models in inhomogeneous domains: modelling and implementation*. I wrote the thesis at the Eindhoven University of Technology (The Netherlands) and was supervised by Adrian Muntean and Andrei Jalba. You can download the report [here](http://arxiv.org/abs/1609.03732).
 
 To support the analysis and investigate how the model holds up in practice, we developed a simulation framework in Python, called  *Mercurial*. You can find it on GitHub [here](https://github.com/0mar/mercurial). More details about the simulation are found in [this post]({% post_url 2016-12-30-mercurial %}).

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Extending Python with Fortran"
 date:   2016-12-15 15:34:13 +0100
 hidden: true

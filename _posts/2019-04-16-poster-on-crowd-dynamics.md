@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Poster showcase"
 date: 16-04-2019
 hidden: true

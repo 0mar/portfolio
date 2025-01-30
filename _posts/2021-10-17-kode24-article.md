@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "kode24 article (Norwegian)"
 date: 17-10-2021
 tags: programming simula consulting

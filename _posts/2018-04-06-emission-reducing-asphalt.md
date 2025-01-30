@@ -1,11 +1,8 @@
 ---
-layout: post
 title:  "Modelling the effectivity of pollution-reducing asphalt"
 hidden: true
 tags: [mathematics, modelling, fem]
 ---
-
-{% include mathjax.html %}
 
 This is a showcase of a recent project I worked on with colleagues from our mathematics department. In addition to describing the mathematical techniques we used, I want to demonstrate how mathematics can be used to gain insight in real life situations.
 

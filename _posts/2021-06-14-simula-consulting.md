@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Joining Simula Consulting"
 date: 14-06-2021
 tags: simula consulting career

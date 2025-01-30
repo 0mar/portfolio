@@ -1,12 +1,9 @@
 ---
-layout: post
 title:  "Knowledge-based crowd dynamics in evolving evacuation scenarios"
 hidden: true
 date: 2018-09-14
 tags: [phd, paper, crowd dynamics]
 ---
-
-{% include mathjax.html %}
 
 Recently, we published a new article on the evacuation dynamics of human crowds in building environments: [Effects of environment knowledge in evacuation scenarios involving fire and smoke: a multiscale modelling and simulation approach](https://link.springer.com/article/10.1007/s10694-018-0743-x), in the journal Fire Technology.
 In this article, we investigate what happens if we mix two kinds of individuals: people who know their surroundings and the fastest way to the exit (called *residents*), and people who are unfamiliar with the environment and who will follow others in their attempt to evacuate (called *visitors*). The goal of this investigation is to gain insight in how knowledge of environment impacts evacuation dynamics.

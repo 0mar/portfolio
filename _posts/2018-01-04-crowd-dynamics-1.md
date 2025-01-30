@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "What is crowd dynamics?"
 hidden: true
 date: 31-12-2017

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Role-based access control in JupyterHub: completed"
 date: 2021-09-05
 tags: programming python jupyter

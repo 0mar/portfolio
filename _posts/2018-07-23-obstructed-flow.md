@@ -1,11 +1,8 @@
 ---
-layout: post
 title:  "Obstructed flow: particle flux through a permeable membrane"
 hidden: true
 tags: mathematics multiscale fem
 ---
-
-{% include mathjax.html %}
 
 Imagine a group of ducklings on one end of a corridor. When a bell sounds, all of them will waddle towards the other end of the corridor, as chaotically and unorganised as ducklings usually waddle.
 Now imagine that you would like to guide these ducklings by placing objects in the corridor.

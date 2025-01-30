@@ -1,12 +1,9 @@
 ---
-layout: post
 title:  "Mercurial: simulation framework for crowd dynamics"
 date:   2016-11-30 15:34:13 +0100
 hidden: true
 tags: [master, graduation project, crowd dynamics, mercurial]
 ---
-
-{% include mathjax.html %}
 
 Recently, I wrote something about my [graduation project]({% post_url 2016-11-20-graduation-project %}). Part of this project was the development of a simulation framework, *Mercurial*. The goal of *Mercurial* is to facilitate the implementation of different hybrid particle simulation methods, and to test them on simple but existing use cases with different environments. You can find the code on GitHub [here](https://github.com/0mar/mercurial), together with instructions on how to use it.
 

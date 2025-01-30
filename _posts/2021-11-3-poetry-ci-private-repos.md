@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "CI/CD: how to resolve private repository dependencies when using Poetry"
 date: 22-11-2021
 tags: programming poetry ci

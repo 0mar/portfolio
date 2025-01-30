@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Defense: Licentiate thesis"
 date: 23-08-2018
 hidden: true
