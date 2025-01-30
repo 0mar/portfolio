@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.bundle/
+.vendor/
+vendor
+.jekyll-*
+.DS_Store
+.*.swp
+*.ipynb_checkpoints
