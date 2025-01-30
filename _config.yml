@@ -1,4 +1,5 @@
 title: applications
+subtitle: omar richardson
 email: omarr@simula.no
 description: > # this means to ignore newlines until "baseurl:"
   Posts on software development and applied mathematics by Omar Richardson,
@@ -11,6 +12,9 @@ linkedin_username: Omar Richardson
 permalink: pretty
 excerpt_separator: "<!--more-->"
 # Build settings
+head_scripts:
+  - /assets/mathjax.html
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-include-cache
