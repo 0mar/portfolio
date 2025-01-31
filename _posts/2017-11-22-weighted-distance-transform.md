@@ -25,12 +25,12 @@ Other mappings can be implemented by overriding this function.
 
  * `get_weighted_distance transform(cost_field)`, which reads a cost field and uses it to compute a distance transform.
 
-If we denote the cost field with $ u(x) $ and the weighted distance transform with \\(\Phi(x)\\), this function returns the solution to the Eikonal equation:
+If we denote the cost field with \\( u(x) \\) and the weighted distance transform with \\(\Phi(x)\\), this function returns the solution to the Eikonal equation:
 
 $$ ||\nabla \Phi|| = u(x),$$
 
-where $u(x)=0$ for each $x$ in the goal area.
-The Eikonal equation is solved by applying a first order upwind discretization method. Because of the non-standard boundary conditions, the upwind direction is determined for each cell with the fast marching algorithm. Cells are added to the distance transform in order of their distance, similar to Dijkstra's algorithm. As a result, $\Phi$ is continuous everywhere, and only non-smooth where $u$ has jumps.
+where \\(u(x)=0\\) for each \\(x\\) in the goal area.
+The Eikonal equation is solved by applying a first order upwind discretization method. Because of the non-standard boundary conditions, the upwind direction is determined for each cell with the fast marching algorithm. Cells are added to the distance transform in order of their distance, similar to Dijkstra's algorithm. As a result, \\(\Phi\\) is continuous everywhere, and only non-smooth where \\(u\\) has jumps.
 
  * `plot(field)`, a Matplotlib wrapper function for a surface plot.
 

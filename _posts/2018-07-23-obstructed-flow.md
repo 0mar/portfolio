@@ -30,16 +30,16 @@ When the diffusion axes are aligned with the obstacles, no significant change in
 <img src="/assets/membrane_files/cross_term_macro.png" />
 *Figure 2: Macroscopic stationary distribution of concentrations for disaligned obstacles and diffusion.*
 
-By changing the shape of the obstacles, you can tune the resulting diffusion. Figure 4 shows the diffusion for various shape sizes (characterised by shape parameter $\delta$).
+By changing the shape of the obstacles, you can tune the resulting diffusion. Figure 4 shows the diffusion for various shape sizes (characterised by shape parameter \\(\delta\\)).
 There seems to be an optimum with respect to shapes. What needs to be investigated is if this is due to the numerical model or to the properties of the geometry.
 
 <img src="/assets/membrane_files/optimal_shapes.png" />
-*Figure 2: Horizontal diffusion with respect to obstacle shape. A minimum is attained for $\delta\approx 0.15$.*
+*Figure 2: Horizontal diffusion with respect to obstacle shape. A minimum is attained for \\(\delta\approx 0.15\\).*
 
 Although it is meant as a simple example, the particles of our investigation match the behaviour of the aforementioned ducklings quite well: there is a force driving them towards the end of the corridor, all the while they experience diffusion in vertical direction, due to the nature of their motion and the bumping into other ducklings.
 
 More generally, this phenomena occurs in all kinds of transport systems where one direction of motion is prevalent, but there are additional forces affecting the agents.
-Other examples include people moving through a subway station, the transport of $\textrm{CO}_2$ in a cell, or a school of fish swimming downstream in a river.
+Other examples include people moving through a subway station, the transport of \\(\textrm{CO}_2\\) in a cell, or a school of fish swimming downstream in a river.
 
 One of our future goals is to develop this method further so we can better understand how to change geometries and shape public environments to optimize flow.
 

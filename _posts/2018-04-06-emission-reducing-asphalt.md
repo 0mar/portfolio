@@ -10,9 +10,9 @@ I have tried to make this post as accessible as possible. If you are interested 
 
 The municipality of a small German city approached us regarding the following issue.
 Nitric oxides are air polluting chemicals emitted by motor vehicles and are, among others, harmful to the ozone layer.
-In a framework of measures to reduce the air pollution, the municipality had decided to install *photovoltaic asphalt*, asphalt coated with a special substance that actively converts nitric oxides like $\textrm{NO}$ and $\textrm{NO}_2$ to nitrate ($\textrm{NO}_3^-$), which clings to the surface of the asphalt until the rain washes it away. Because these nitrates are not airborne, air pollution is reduced.
+In a framework of measures to reduce the air pollution, the municipality had decided to install *photovoltaic asphalt*, asphalt coated with a special substance that actively converts nitric oxides like \\(\textrm{NO}\\) and \\(\textrm{NO}_2\\) to nitrate  \\(\textrm{NO}_3^-\\)), which clings to the surface of the asphalt until the rain washes it away. Because these nitrates are not airborne, air pollution is reduced.
 
-Due to extensive measurements, there was a lot of information available on $\textrm{NO}$ concentration prior to, as well as after the installation of the new asphalt.
+Due to extensive measurements, there was a lot of information available on \\(\textrm{NO}\\) concentration prior to, as well as after the installation of the new asphalt.
 
 Their question was if we could estimate the influence of the different environmental measures in this particular scenario, to help them make future decisions based on a validated approach.
 To answer this question, we created a mathematical model that incorporated the major elements that play a role in this process, so that different scenarios could be explored and emission reducing measures could be compared.
@@ -20,16 +20,16 @@ To answer this question, we created a mathematical model that incorporated the m
 
 ## Model
 
-The emission of $\textrm{NO}$ from a motor vehicle in an open environment can be modelled with an [advection-reaction-diffusion equation](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation). This is a partial differential equation (PDE) that is able to approximate the evolution of a gaseous substance subject to diffusion (natural spreading), advection (directional movement due to e.g. wind or rain) and creation/depletion (emission by motor vehicles and degradation to $\textrm{NO}_2$). This gaseuous substance is the nitric oxide and and will be represented with $u$.
+The emission of \\(\textrm{NO}\\) from a motor vehicle in an open environment can be modelled with an [advection-reaction-diffusion equation](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation). This is a partial differential equation (PDE) that is able to approximate the evolution of a gaseous substance subject to diffusion (natural spreading), advection (directional movement due to e.g. wind or rain) and creation/depletion (emission by motor vehicles and degradation to \\(\textrm{NO}_2\\)). This gaseuous substance is the nitric oxide and and will be represented with \\(u\\).
 
 This PDE has the following form.
 
 $$ \frac{\partial u(x,t)}{\partial t} = \Delta u(x,t) + f(x,t)$$
 
-where $x$ is a space variable, and $t$ the time variable.
-Term by term, this equation has the following meaning: Everywhere inside our environment, the *rate of change* of substance $u$ (denoted with $\frac{\partial u(x,t)}{\partial t}$) is affected by the *diffusion* of $u$ (denoted with $\nabla u$) and the *creation/depletion* of $u$ (denoted with $f(x,t)$).
+where \\(x\\) is a space variable, and \\(t\\) the time variable.
+Term by term, this equation has the following meaning: Everywhere inside our environment, the *rate of change* of substance \\(u\\) (denoted with \\(\frac{\partial u(x,t)}{\partial t}\\)) is affected by the *diffusion* of \\(u\\) (denoted with \\(\nabla u\\)) and the *creation/depletion* of \\(u\\) (denoted with \\(f(x,t)\\)).
 
-We account for the geometry of our model (the environment in which the process takes place) by setting specific *boundary conditions* to this PDE: conditions that specify the behaviour of $u$ at the boundary of our environment.
+We account for the geometry of our model (the environment in which the process takes place) by setting specific *boundary conditions* to this PDE: conditions that specify the behaviour of \\(u\\) at the boundary of our environment.
 We take a cross-section of the road in question, a schematic drawing of which is included below.
 
 <img src="/assets/pollution_files/geometry.png" alt="The geometry the PDE is solved in" />
@@ -38,7 +38,7 @@ Since the ground is solid asphalt or pavement, we assume it cannot be penetrated
 
 $$ - D\nabla u = 0 $$
 
-The photovoltaic asphalt converts the substance $\textrm{NO}$ that comes in contact with its surface to $\textrm{NO}_2$, with a certain reaction rate $\kappa$.
+The photovoltaic asphalt converts the substance \\(\textrm{NO}\\) that comes in contact with its surface to \\(\textrm{NO}_2\\), with a certain reaction rate \\(\kappa\\).
 We mimic this with a *Robin* boundary condition, a condition that states the outflow of our substance through this boundary is equivalent to the difference between the concentration of the substance in our geometry, and the atmospheric level. Simply put, high concentrations emit a lot of pollution, while low concentrations emit less.
 
 $$ - D\nabla u = \kappa(u-u_0) $$
