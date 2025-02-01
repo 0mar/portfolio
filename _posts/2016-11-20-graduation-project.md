@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Graduation project: a multiscale perspective on many-particle systems"
 date:   2016-11-20 15:34:13 +0100
 hidden: true
