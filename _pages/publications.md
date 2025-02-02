@@ -1,15 +1,13 @@
 ---
-layout: page
 title:  "Publications"
+permalink: "/publications/"
 ---
-
-Below follows a list of publications and articles I have worked on.
 
 [//]: #( Some of the publications have an accessible summary posted on this blog. In the spirit of making my research as accessible as possible, I try do this with most of the articles I publish.)
 
 ## Journal articles
 
-* [Parallel two-scale finite element implementation of a system with varying microstructures][14], O. M. Richardson, O. Lakkis, A. Muntean, C. Venkataraman, *under review* (2021)
+* [Parallel two-scale finite element implementation of a system with varying microstructures][14], O. Lakkis, A. Muntean, O.M. Richardson, C. Venkataraman, GAMM Mitteilungen (2024)
 
 * [Deterministic model of battery, uphill currents and non-equilibrium phase transitions][13], E. Cirillo, M. Colangeli, O. M. Richardson, L. Rondoni, *Physical Review E*, volume 103, number 3 (2021)
 

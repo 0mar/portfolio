@@ -2,8 +2,10 @@ main:
   - title: "About"
     url: /about/
   - title: "Projects"
-    url: /categories/
+    url: /projects/
   - title: "Archive"
     url: /year-archive/
   - title: "Talks"
     url: /talks/
+  - title: "Publications"
+    url: /publications/
