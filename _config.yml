@@ -1,13 +1,13 @@
-title: applications
-subtitle: omar richardson
+title: derivative
+subtitle: R&D and applied math blog
 email: omarr@simula.no
 description: > # this means to ignore newlines until "baseurl:"
-  Posts on software development and applied mathematics by Omar Richardson,
-  data scientist and researcher at Simula Consulting
+  Posts on R&D, artificial intelligence and tech by Omar Richardson,
+  
 tagline: "Omar Richardson's research blog"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  jekyll
+url: "blog.mathlike.dev" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  0mar
 linkedin_username: Omar Richardson
 permalink: pretty
 excerpt_separator: "<!--more-->"
@@ -19,6 +19,22 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-include-cache
   - jekyll-feed
+
+author:
+  name: "Omar Richardson"
+  avatar: "/assets/omar-sc.png"
+  bio: "applied mathematician and chief technology officer at simula research laboratory"
+  location: "Oslo, Norway"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/0mar"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/my/omar-richardson"
+    - label: "Google scholar"
+      icon: "fab fa-fw fa-google-scholar" 
+      url: "https://scholar.google.com/citations?user=3SEayEsAAAAJ&hl=en"
 
 defaults:
   # _posts
@@ -36,14 +52,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
