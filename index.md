@@ -14,16 +14,18 @@ intro:
 feature_row:
   - image_path: assets/fish.png
     alt: "computer vision for biodiversity"
-    title: "Maintaining fish populations with computer vision"
-    excerpt: "Using river management in Norwegian rivers, we examine the effects of computer vision"
+    title: "Combatting invasive species with machine learning"
+    excerpt: "Protecting biodiversity using computer vision and underwater robotics"
+    url: /projects/albatross
   - image_path: /assets/losjitech.png
     alt: "AI agent frameworks"
-    title: "AI agents for knowledge retrieval"
-    excerpt: "Building LLM-based knowledge retrieval systems and NLP-to-structured information pipelines"
+    title: "LLM agents to generate structured information"
+    excerpt: "Building conversational pipelines to interface between end-user and APIs with large language models"
+    url: /projects/smart-assistent
   - image_path: /assets/jupyterhealth.png
     title: "Democratizing health care data with JupyterHealth"
-    excerpt: "Sharing data securely, purposefully, between patient and healthcare provider"
-
+    excerpt: "Share wearable health data securely between patient, healthcare provider, and researcher"
+    url: /projects/jupyterhealth
 ---
 {% include feature_row id="intro" type="center" %}
 
