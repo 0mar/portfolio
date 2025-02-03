@@ -8,7 +8,7 @@ permalink: /about/
 My name is Omar Richardson. I am an applied mathematician and chief technology officer at [Simula Research Laboratory](https://simula.no).
 
 Simula is a Norwegian research institute that focuses on technological innovations in IT that help solve problems in society.
-I am mostly involved with industrial R&D through artificial intelligence, such as computer vision and natural language processing.
+Affiliated with the [Department of Applied AI](https://www.simula.no/services/applied-ai), I am mostly involved with industrial R&D through artificial intelligence, such as computer vision and natural language processing.
 This blog has two main purposes:
  - Showcase professional and personal projects [portfolio]()
  - Share technical knowledge and [publications]()
