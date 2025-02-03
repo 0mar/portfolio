@@ -10,8 +10,8 @@ My name is Omar Richardson. I am an applied mathematician and chief technology o
 Simula is a Norwegian research institute that focuses on technological innovations in IT that help solve problems in society.
 Affiliated with the [Department of Applied AI](https://www.simula.no/services/applied-ai), I am mostly involved with industrial R&D through artificial intelligence, such as computer vision and natural language processing.
 This blog has two main purposes:
- - Showcase professional and personal projects [portfolio]()
- - Share technical knowledge and [publications]()
+ - Showcase professional and personal [projects](/projects/)
+ - Share [news updates and technical knowledge](/archive/)
 
 All views on this blog are my own and do not necessarily represent the views of my current or past employers.
 
