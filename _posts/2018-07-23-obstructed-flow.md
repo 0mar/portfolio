@@ -1,6 +1,5 @@
 ---
 title:  "Obstructed flow: particle flux through a permeable membrane"
-hidden: true
 tags: mathematics multiscale fem
 ---
 

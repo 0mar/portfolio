@@ -1,7 +1,6 @@
 ---
 title:  "Mercurial: simulation framework for crowd dynamics"
 date:   2016-11-30 15:34:13 +0100
-hidden: true
 tags: [master, graduation project, crowd dynamics, mercurial]
 ---
 

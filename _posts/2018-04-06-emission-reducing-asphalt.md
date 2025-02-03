@@ -1,6 +1,5 @@
 ---
 title:  "Modelling the effectivity of pollution-reducing asphalt"
-hidden: true
 tags: [mathematics, modelling, fem]
 ---
 

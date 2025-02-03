@@ -1,7 +1,6 @@
 ---
 title: "Crowds and populations: a visual exploration"
 date:   2017-10-20 20:25:23 +0100
-hidden: true
 tags: [population dynamics, videos, crowd dynamics]
 ---
 

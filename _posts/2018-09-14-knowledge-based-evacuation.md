@@ -1,6 +1,5 @@
 ---
 title:  "Knowledge-based crowd dynamics in evolving evacuation scenarios"
-hidden: true
 date: 2018-09-14
 tags: [phd, paper, crowd dynamics]
 ---

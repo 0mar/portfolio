@@ -1,7 +1,6 @@
 ---
 title: "Implementation of a weighted distance transform"
 date: 2017-11-21
-hidden: true
 tags: [programming, fortran, math, mercurial]
 ---
 I recently finished a Python module for computing weighted or generalized distance transforms (available [here](https://github.com/0mar/weigted-distance-transform)). I needed it for the motion planner in my crowd simulation [Mercurial]({% post_url 2016-12-30-mercurial %}) and I couldn't find it online, so I implemented it in Fortran so F2PY could [wrap]({% post_url 2016-12-15-python-fortran %}) it for me. This post goes into details of the algorithm and how to use the module.

@@ -4,7 +4,7 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "Archive"
-    url: /year-archive/
+    url: /archive/
   - title: "Talks"
     url: /talks/
   - title: "Publications"

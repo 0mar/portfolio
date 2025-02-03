@@ -1,7 +1,6 @@
 ---
 title:  "Extending Python with Fortran"
 date:   2016-12-15 15:34:13 +0100
-hidden: true
 tags: programming python fortran hpc
 ---
 If you use Python for scientific programming you'll probably find that as long as you can use NumPy, SciPy, and other optimized libraries, scripts can be developed and executed swiftly.
