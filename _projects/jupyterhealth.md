@@ -6,16 +6,16 @@ permalink: /projects/jupyterhealth/
 
 Healthcare data needs robust security while remaining accessible to researchers and clinicians. This balance becomes even more critical as data science tools become essential for medical research and patient care.
 
-## The Problem
+## The problem
 Traditional OAuth systems weren't designed with healthcare's strict security requirements in mind. When researchers need to access patient data through Jupyter notebooks, they need seamless authentication that maintains HIPAA compliance and respects patient privacy.
 
-## Our Solution
+## The solution
 We enhanced JupyterHub's authentication system to fully support SMART on FHIR - the healthcare industry's standard for secure API access. The system allows researchers to:
 - Access patient data directly in notebooks
 - Maintain continuous authentication during long analyses
 - Work within EHR systems' security boundaries
 
-![auth-flow]({{ site.url }}{{ site.baseurl }}/assets/images/auth-flow.png)
+![jupyterhealth]({{ site.url }}{{ site.baseurl }}/assets/jupyterhealth.png)
 *The authentication flow maintains security while providing seamless access to healthcare data*
 
 ## Technical Implementation
@@ -49,10 +49,9 @@ This implementation handles:
 3. Refresh token management for long sessions
 
 ## Deployment and Impact
-The system now runs in several research institutions, supporting hundreds of researchers working with sensitive healthcare data. The authentication system has processed over 10,000 secure sessions without security incidents.
+My focus was on supporting secure authentication and authorization by implementing the [SMART](https://docs.smarthealthit.org/) on [FHIR](https://hl7.org/fhir/) protocol in JupyterHub.
 
-![usage]({{ site.url }}{{ site.baseurl }}/assets/images/usage-stats.png)
-*Usage has grown steadily since deployment*
+![smart]({{ site.url }}{{ site.baseurl }}/assets/images/smart.png)
 
 ## Future Work
 We're expanding the system to support:

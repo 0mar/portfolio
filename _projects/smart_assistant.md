@@ -11,13 +11,14 @@ Together with our hotel partners, we developed an AI-powered solution that makes
 ## Overview
 The solution combines retrieval-augmented generation (RAG) with natural language processing. Here's how it works:
 
+![nlp-modules]({{ site.url }}{{ site.baseurl }}/assets/images/nlp-modules.png)
+
 ## Knowledge Access:
 
 - Hotel documentation is processed and indexed into a hierarchical database
 - Staff queries are analyzed using natural language understanding
 - A RAG system retrieves relevant information and generates contextual responses
 - All responses are grounded in verified hotel documentation
-
 
 ## Guest Request Processing:
 
@@ -28,13 +29,8 @@ The solution combines retrieval-augmented generation (RAG) with natural language
 
 The system runs continuously, requiring minimal maintenance while maintaining high accuracy across different types of queries and requests. Our team was responsible for the end-to-end development of both the RAG system and the NLP pipeline.
 
+![nlp-modules]({{ site.url }}{{ site.baseurl }}/assets/images/losjitech-setup.png)
+
 ## Impact
 Initial deployments showed significant operational improvements:
-
-60% reduction in information retrieval time
-40% decrease in request miscategorization
-Improved first-time resolution rates
-Enhanced service consistency
-Reduced new employee training time
-
 We continue to enhance the system by expanding the knowledge base, refining the NLP models, and making the infrastructure more scalable. The solution has been deployed across multiple properties since 2023, with new features added based on real-world usage and feedback.
