@@ -6,7 +6,7 @@ layout: splash
 permalink: /projects/
 author_profile: true
 feature_row2:
-  - image_path: assets/fish.png
+  - image_path: assets/images/albatross.png
     title: "Maintaining fish populations with computer vision"
     excerpt: "Using river management in Norwegian rivers, we examine the effects of computer vision"
     btn_label: "Read More"

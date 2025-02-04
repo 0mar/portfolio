@@ -11,7 +11,7 @@ github_username:  0mar
 linkedin_username: Omar Richardson
 permalink: pretty
 excerpt_separator: "<!--more-->"
-include: ["_pages"]
+include: ["_pages", "_projects"]
 # Build settings
 head_scripts:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

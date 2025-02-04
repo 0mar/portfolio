@@ -12,16 +12,16 @@ excerpt: "Omar Richardson's personal blog on research and development in AI, app
 intro: 
   - excerpt: 'As part of my work in the Department of Applied AI at Simula, I work on R&D projects in various domains, usually involving machine learning and app development. This blog has details on those projects, as well as stand-alone blog posts on software development and applied mathematics'
 feature_row:
-  - image_path: assets/fish.png
+  - image_path: assets/images/albatross.png
     alt: "computer vision for biodiversity"
-    title: "Combatting invasive species with machine learning"
+    title: "Combating invasive species with machine learning"
     excerpt: "Protecting biodiversity using computer vision and underwater robotics"
     url: /projects/albatross
   - image_path: /assets/losjitech.png
     alt: "AI agent frameworks"
     title: "LLM agents to generate structured information"
     excerpt: "Building conversational pipelines to interface between end-user and APIs with large language models"
-    url: /projects/smart-assistent
+    url: /projects/smart-assistant
   - image_path: /assets/jupyterhealth.png
     title: "Democratizing health care data with JupyterHealth"
     excerpt: "Share wearable health data securely between patient, healthcare provider, and researcher"
