@@ -36,3 +36,8 @@ I designed the data and software infrastructure, with the goal to run as robustl
 
 This project was first deployed in Berlevag, Norway in 2022 and has been deployed into more rivers every year since. We are improving the solution to increase accuracy, streamline the hardware and make it more scalable. 
 
+<!-- Todo
+1. Add GIFs
+2. Add metrics and results on accuracy
+3. Perhaps write some blog posts on setup details
+4. Share more about infrastructure -->
