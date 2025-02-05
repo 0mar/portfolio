@@ -15,6 +15,7 @@ include: ["_pages", "_projects"]
 # Build settings
 head_scripts:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - <link rel="shortcut icon" type="image/png" href="{{ 'favicon.png' | relative_url }}">
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-include-cache
