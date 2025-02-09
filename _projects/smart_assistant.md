@@ -2,35 +2,39 @@
 permalink: /projects/smart-assistant/
 ---
 
-# AI for Hospitality: Transforming Guest Services Through Intelligence
-## Introduction
-The hospitality industry faces growing pressure to deliver exceptional service while managing vast amounts of operational knowledge. Hotels typically maintain information across dozens of systems and documents, making it challenging for staff to quickly access critical details during guest interactions.
-At the same time, guests increasingly expect instant, frictionless service - yet traditional communication channels often involve multiple touchpoints and manual processing, leading to delays and miscommunication.
-Together with our hotel partners, we developed an AI-powered solution that makes knowledge instantly accessible and automates the processing of guest requests into actionable items.
+# Knowledge-as-a-Service: How to use large language models to access unstructured information
+More and more, the hospitality industry is expected to deliver exceptional customer experiences with fewer resources and high competition.
+Hotels typically maintain information across dozens of systems and documents, making it challenging for staff to quickly access critical details during guest interactions.
+At the same time, guests increasingly expect instant, frictionless service and high availability of support.
+Together with US-based hospi-tech company [LosjiTech](losjitech.com), we developed an AI-powered solution that makes knowledge instantly accessible and automates the processing of guest requests into actionable items.
 
-## Overview
-The solution combines retrieval-augmented generation (RAG) with natural language processing. Here's how it works:
+![nlp-modules]({{ site.url }}{{ site.baseurl }}/assets/images/losjitech-setup.png)
+_The operational infrastructure of LosjiTech's platform_
+## Summary
+We built modules to support the following workflows:
+- A guest has a question about how to engage with the property they have rented, such as how they can roll down the sun blinds <>. Rather than having the guest weed through a knowledge base or depend on staff, they are empowered through conversational access with their knowledge base
+- A guest has no access to hot water. They discuss the issue with a service chatbot, which compiles a service report through natural conversation, including metadata such as check-in date and room location. The report satisfies the structured information requirements on a service ticket and both the guest and the service staff get instant confirmation of the problem.
+
+## Knowledge retrieval
+The solution combines traditional approaches in natural language processing (NLP) with the power of large language models (LLMs), in a hybrid approach dubbed _retrieval-augmented generation_ (RAG).
 
 ![nlp-modules]({{ site.url }}{{ site.baseurl }}/assets/images/nlp-modules.png)
 
-## Knowledge Access:
+First, we index the documents in a hotel's knowledge base into a so-called _vector database_, where each document gets assigned an _embedding_, a long vector of numbers. When two embeddings are close to each other, it means that the documents they represent likely contain similar information. 
 
-- Hotel documentation is processed and indexed into a hierarchical database
-- Staff queries are analyzed using natural language understanding
-- A RAG system retrieves relevant information and generates contextual responses
-- All responses are grounded in verified hotel documentation
+When a guests requests information, we compute the embedding of his request. This allows us to identify the documents that might contain the information the guest is looking for.
+We take the most related documents from the vector database and present them to the LLM, which then searches through these documents to find the exact piece of information the guest is looking for and formulate it as an answer to their question.
 
-## Guest Request Processing:
+<> video 1
+## Automated service tickets
 
-- Guests submit requests through their preferred channel (app, SMS, voice)
-- NLP pipeline converts natural language to structured data
-- Requests are automatically categorized and routed
-- Staff receive pre-formatted tickets with actionable information
+Using the same technology, but somewhat in reverse, we are able to convert a request in natural language into a structured ticket. LLMs are suitable to convert information from one format into another, and tools like [LangChain](https://www.langchain.com/) or [LlamaIndex](https://docs.llamaindex.ai/en/stable/) have built-in support to choose which procedures to run based on contextual conversations.
+By mapping the different fields a service ticket requires to a concise description, the chatbot can infer what information it can directly take from a request, as well as what is still needed
+<> video 2 
 
-The system runs continuously, requiring minimal maintenance while maintaining high accuracy across different types of queries and requests. Our team was responsible for the end-to-end development of both the RAG system and the NLP pipeline.
+## Advantages
+Apart from the efficiency and repetitive work that is saved, this also gives more insight of what guests are generally struggling with, and requires clarification.
+In addition, it allows for seamless adaption to the preferred channel; if a guest desired a voice interface, the only extra effort required is integration with e.g. the [Whisper API](https://openai.com/index/whisper/).
+In addition, the knowledge assistant can be helpful to the issue handler as well; imagine that a guest doesn't have access to hot water, because the tank requires a start. the knowledge assistent is able to link the information in the ticket to the information in the knowledge base, coming up with helpful suggestions.
 
-![nlp-modules]({{ site.url }}{{ site.baseurl }}/assets/images/losjitech-setup.png)
-
-## Impact
-Initial deployments showed significant operational improvements:
-We continue to enhance the system by expanding the knowledge base, refining the NLP models, and making the infrastructure more scalable. The solution has been deployed across multiple properties since 2023, with new features added based on real-world usage and feedback.
+This system has been deployed and is in commercial use by LosjiTech.
