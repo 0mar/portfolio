@@ -25,12 +25,13 @@ First, we index the documents in a hotel's knowledge base into a so-called _vect
 When a guests requests information, we compute the embedding of his request. This allows us to identify the documents that might contain the information the guest is looking for.
 We take the most related documents from the vector database and present them to the LLM, which then searches through these documents to find the exact piece of information the guest is looking for and formulate it as an answer to their question.
 
-<> video 1
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aobSwZyj5dM" frameborder="0" allowfullscreen></iframe>
 ## Automated service tickets
+
 
 Using the same technology, but somewhat in reverse, we are able to convert a request in natural language into a structured ticket. LLMs are suitable to convert information from one format into another, and tools like [LangChain](https://www.langchain.com/) or [LlamaIndex](https://docs.llamaindex.ai/en/stable/) have built-in support to choose which procedures to run based on contextual conversations.
 By mapping the different fields a service ticket requires to a concise description, the chatbot can infer what information it can directly take from a request, as well as what is still needed
-<> video 2 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ryFum4i2M10" frameborder="0" allowfullscreen></iframe>
 
 ## Advantages
 Apart from the efficiency and repetitive work that is saved, this also gives more insight of what guests are generally struggling with, and requires clarification.
