@@ -6,8 +6,12 @@ permalink: /projects/albatross
 
 ## Introduction
 The Atlantic salmon is one of Norway's most important export products, accounting for 17.5% of the total export trade.
-The rivers in Northern Norway are full of them, where they migrate upstream from the ocean to spawn in freshwater during summer and autumn, with young salmon spending 2-3 years <> in the river before heading to sea.
-The last few decades have seen an increase of the artificially introduced pink salmon (also called "humpback salmon"), an invasive species that competes with the Atlantic Salmon for resources and territory. <> (add newspaper)
+The rivers in Northern Norway are full of them, where they migrate upstream from the ocean to spawn in freshwater during summer and autumn, with young salmon spending 2-3 years in the river before heading to sea.
+
+In recent years, the invasive _pink salmon_ has gained a foothold in the north Norwegian ecosystem, competing for resources with the Atlantic salmon.
+![dagbladet]({{ site.url }}{{ site.baseurl }}/assets/images/dagbladet-no.png)
+_"10-fold increase in Pink Salmon population", image courtesy of dagbladet.no_
+
 Unlike the Atlantic variant, the mature pink salmon does not tolerate fresh water, and dies after laying eggs, slowly decomposing upstream in the river. This alters water chemistry and does not only impact the other fish species, but the river ecosystem as a whole.
 
 ![fishermen]({{ site.url }}{{ site.baseurl }}/assets/images/fishermen.png){: .align-left} 
@@ -45,4 +49,4 @@ This project was first deployed in Berlevåg, Norway in summer 2022 and has been
 
 In the last iteration, the summer of 2024, we caught over 5000 pink salmon. The recall rate was over 99%. 
 
-This project won the jury price on the World AI festival in Cannes, France in 2022. It was a top 10 finalist for a United Nations Sustainable Development Goals award in 2023 and won a Mobile Technology in Barcelona, Spain in 2024. <>
+This project won the jury price on the [World AI festival](https://www.worldaicannes.com/) in Cannes, France in 2022. It was a top 10 finalist for the [UN Sustainable Development Goals Digital GameChangers award](https://www.itu.int/initiatives/sdgdigital/gamechangers-award/planet/) in 2023 and won a [GLOMO award](https://www.mwcbarcelona.com/news/2024-glomo-award-winners-unveiled-at-mwc-barcelona) in Barcelona, Spain in 2024.
