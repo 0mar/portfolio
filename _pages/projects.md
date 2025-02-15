@@ -7,22 +7,22 @@ permalink: /projects/
 author_profile: true
 feature_row2:
   - image_path: assets/images/albatross.png
-    title: "Maintaining fish populations with computer vision"
-    excerpt: "Using river management in Norwegian rivers, we examine the effects of computer vision"
+    title: "Combating invasive species with machine learning"
+    excerpt: "Protecting biodiversity using computer vision and underwater robotics"
     btn_label: "Read More"
     btn_class: "btn--primary"
     url: /projects/albatross
 feature_row3:
   - image_path: /assets/losjitech.png
     title: "AI agents for knowledge retrieval"
-    excerpt: "Building LLM-based knowledge retrieval systems and NLP-to-structured information pipelines"
+    excerpt: "Building LLM-based knowledge retrieval systems and NLP-to-structured-information pipelines"
     btn_label: "Read More"
     btn_class: "btn--primary"
     url: /projects/smart-assistant
 feature_row4:
   - image_path: /assets/jupyterhealth.png
     title: "Democratizing health care data with JupyterHealth"
-    excerpt: "Sharing data securely, purposefully, between patient and healthcare provider"
+    excerpt: "Share wearable health data securely between patient, healthcare provider, and researcher"
     btn_label: "Read More"
     btn_class: "btn--primary"
     url: /projects/jupyterhealth

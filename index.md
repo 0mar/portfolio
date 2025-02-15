@@ -19,7 +19,7 @@ feature_row:
     url: /projects/albatross
   - image_path: /assets/losjitech.png
     alt: "AI agent frameworks"
-    title: "LLM agents to generate structured information"
+    title: "AI agents for knowledge retrieval"
     excerpt: "Building conversational pipelines to interface between end-user and APIs with large language models"
     url: /projects/smart-assistant
   - image_path: /assets/jupyterhealth.png
