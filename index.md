@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/header.png
 excerpt: "Omar Richardson's personal blog on research and development in AI, applied mathematics and digital innovation"
 intro: 
-  - excerpt: 'As part of my work in the Department of Applied AI at Simula, I work on R&D projects in various domains, usually involving machine learning and app development. This blog has details on those projects, as well as stand-alone blog posts on software development and applied mathematics'
+  - excerpt: 'As part of my work in the Department of Applied AI at Simula, I work on R&D projects in various domains, usually involving machine learning and app development. This blog has details on those projects, as well as stand-alone blog posts on software development and applied mathematics.'
 feature_row:
   - image_path: assets/images/albatross.png
     alt: "computer vision for biodiversity"
