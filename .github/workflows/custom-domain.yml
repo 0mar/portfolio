@@ -1,0 +1,59 @@
+name: Deploy Web App to Azure Static Web Apps
+
+on:
+  push:
+    branches:
+      - main 
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  OUTPUT_LOCATION: "./_site"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        # TODO: configure domain properly
+        # TODO: configure output location
+        run: bundle exec jekyll build --baseurl "${{ secrets.AZURE_DOMAIN }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Upload Jekyll artifacts
+        uses: actions/upload-artifact@v4 
+        with:
+          name: jekyll-site 
+          path: ${{ env.OUTPUT_LOCATION }} 
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download Jekyll artifacts
+        uses: actions/download-artifact@v4 # Use download-artifact to retrieve the _site directory
+        with:
+          name: jekyll-site # Must match the name used in upload-artifact
+          path: ./${{ env.OUTPUT_LOCATION }} # This will download to _site relative to the current working directory
+      - name: Deploy to Azure Static Web Apps
+        id: deploy
+        uses: azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: "upload"
+          skip_app_build: true
+          app_location: ${{ env.OUTPUT_LOCATION }}
+          output_location: ""
+          api_location: ""
