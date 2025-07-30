@@ -29,7 +29,7 @@ jobs:
         # Outputs to the './_site' directory by default
         # TODO: configure domain properly
         # TODO: configure output location
-        run: bundle exec jekyll build --baseurl "${{ secrets.AZURE_DOMAIN }}"
+        run: bundle exec jekyll build --url "${{ secrets.AZURE_DOMAIN }}"
         env:
           JEKYLL_ENV: production
       - name: Upload Jekyll artifacts
