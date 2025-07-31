@@ -29,7 +29,7 @@ feature_row4:
 
 ---
 # Recent projects
-My host institute is [Simula](https://simula.no), where I work with a team of data scientists and research engineers. The [department of Applied AI](https://www.simula.no/services/applied-ai) works with both industry and public sector to solve urgent problems with innovative solutions. Below are a few projects I contributed to.
+My host institute is [Simula](https://simula.no), where I work with a team of data scientists and research engineers. The [department of Applied AI](https://www.simula.no/services/applied-ai) works with both industry and public sector to solve real-life problems with innovative solutions. Below are a few projects I contributed to.
 
 {% include feature_row id="intro" type="center" %}
 
