@@ -1,5 +1,5 @@
 ---
-title: "New project: Grid prediction with SurplusMap"
+title: "New project: grid prediction with SurplusMap"
 date: 15-07-2025
 tags: simula ai mathematics project innovation
 ---
