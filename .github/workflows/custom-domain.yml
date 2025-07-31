@@ -31,11 +31,11 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         # TODO: configure domain properly
-        # TODO: configure output location
         run: bundle exec jekyll build --config _config.yml,_config_prod.yml
         env:
           JEKYLL_ENV: production
       - name: Upload Jekyll artifacts
+      # Can be done in one step to not have to create intermediate artifacts
         uses: actions/upload-artifact@v4 
         with:
           name: jekyll-site 
